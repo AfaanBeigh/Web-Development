@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+Event Handling
+</title>
+</head>
+<h1>
+Event Handling (onsubmit)
+</h1>
+<form name="fname" onsubmit="fun()">
+Username : <br>
+<input type="text" name="user"><br>
+<input type="submit" value="Submit">
+</form>
+<script>
+function fun()
+{
+var x=document.fname.user.value
+if(x=="")
+{
+alert("Enter Username");
+}
+else
+{
+alert("Form Submitted");
+}
+}
+</script>
+</html>

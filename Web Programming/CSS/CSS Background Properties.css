@@ -1,0 +1,8 @@
+body
+{
+background-color:orange;
+background-image:url("Data/Rainy Image.jpg"),url("Data/Apple Image.jpg"),url("Data/Pen Image.jpg");
+background-size:500px 300px,300px 200px,300px 200px;
+background-repeat:no-repeat,repeat-x,repeat-y;
+background-position:top right,top left,top left;
+}

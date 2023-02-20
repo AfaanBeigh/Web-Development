@@ -1,0 +1,17 @@
+h1
+{
+border-style:dotted;
+border-width:10px;
+border-color:orange;
+}
+p
+{
+border-style:solid;
+border-width:10px;
+border-color:green;
+border-radius:10px;
+}
+big
+{
+border:5px solid red; //shortcut form of border
+}

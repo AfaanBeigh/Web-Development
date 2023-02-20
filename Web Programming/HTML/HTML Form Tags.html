@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+Form
+</title>
+</head>
+<body>
+<h1 style="text-align:center;"><u>Fill Form</u></h1>
+<form>
+<fieldset>
+<legend>
+<b>Student Registration Form</b>
+</legend><br><br>
+Name :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="text" name="name" maxlength="12" placeholder="Enter Name" required><br><br>
+Password :
+<input type="password" name="pwd" pattern=".{8,}" title="Password eight or more characters" placeholder="Enter Password"><br><br>
+Date Of Birth :&nbsp;
+<input type="date" name="birthdate"><br><br>
+Email :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="email" name="email" placeholder="Enter Email Address" required><br><br>
+Contact No. :
+<input type="text" name="ph" placeholder="+91 **********" required><br><br>
+Address :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="text" name="address" size="50" placeholder="Enter Address" required><br><br>
+Pincode :
+<input type="text" name="pincode" placeholder="Enter Pincode"><br><br>
+Select File to Upload :
+<input type="file" name="fileupload"><br><br>
+<b>Gender :</b><br><br>
+<label for="male">Male</label><input type="radio" name="gender" id="male"><br>
+<label for="female">Female</label><input type="radio" name="gender" id="female"><br><br>
+<b>Hobbies :</b><br><br>
+<input type="checkbox" name="chk" id="drawing"><label for="drawing">Drawing</label><br>
+<input type="checkbox" name="chka" id="singing"><label for="singing">Singing</label><br>
+<input type="checkbox" name="chkb" id="reading"><label for="reading">Reading</label><br>
+<input type="checkbox" name="chkc" id="teaching"><label for="teaching">Teaching</label><br><br>
+Choose Course :
+<select name="course">
+<option value="Btech">Btech</option>
+<option value="Mtech">Mtech</option>
+<option value="BSc">BSc</option>
+<option value="Biotech">Biotech</option>
+<option value="BA">BA</option>
+<option value="MA">MA</option>
+</select><br><br>
+Remarks :
+<input type="text" name="remarks" size="30"><br><br>
+<input type="button" value="Log In">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="submit" value="Submit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="reset" value="Reset">
+</fieldset>
+</form>
+</body>
+</html>

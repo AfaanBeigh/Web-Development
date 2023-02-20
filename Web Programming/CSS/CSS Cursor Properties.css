@@ -1,0 +1,15 @@
+.cursor1
+{
+border:3px solid green;
+cursor:no-drop;
+}
+.cursor2
+{
+border:3px solid red;
+cursor:wait;
+}
+.cursor3
+{
+border:3px solid blue;
+cursor:url("Data/Cursor.png"),pointer;
+}

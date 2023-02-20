@@ -1,0 +1,29 @@
+.para1
+{
+background-color:orange;
+display:inline;
+}
+.para2
+{
+background-color:green;
+display:inline;
+}
+.para2 span
+{
+background-color:yellow;
+display:block;
+}
+.para3
+{
+background-color:red;
+display:block;
+}
+.para3 span
+{
+background-color:pink;
+display:inline-block;
+}
+.para4
+{
+display:none;
+}

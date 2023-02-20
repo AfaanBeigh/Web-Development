@@ -1,0 +1,10 @@
+var a="John";
+var a="Adam";
+document.write(a);
+document.write("<br>");
+let b="David";
+    b="Andrew";
+document.write(b);
+document.write("<br>");
+const c="Harry";
+document.write(c);

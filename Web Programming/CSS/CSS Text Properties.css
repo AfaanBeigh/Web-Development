@@ -1,0 +1,26 @@
+h1
+{
+color:blue;
+letter-spacing:5px;
+text-decoration:overline;
+text-transform:lowercase;
+}
+h2
+{
+color:red;
+text-align:center;
+text-decoration:underline;
+text-transform:uppercase;
+text-shadow:2px 2px 4px grey;
+}
+p
+{
+word-spacing:20px;
+text-indent:20px;
+text-align:justify;
+text-transform:capitalize;
+}
+big
+{
+text-decoration:line-through;
+}

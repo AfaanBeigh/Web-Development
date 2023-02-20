@@ -1,0 +1,53 @@
+div
+{
+float:left;
+margin:20px;
+}
+.text1
+{
+width:140px;
+height:140px;
+border:10px solid red;
+overflow:visible;
+}
+.text2
+{
+width:140px;
+height:140px;
+border:10px solid red;
+overflow:hidden;
+}
+.text3
+{
+width:140px;
+height:140px;
+border:10px solid red;
+overflow:scroll;
+}
+.text4
+{
+width:140px;
+height:140px;
+border:10px solid red;
+overflow:auto;
+}
+.text5
+{
+width:140px;
+height:140px;
+border:10px solid red;
+overflow-x:hidden;
+}
+.image
+{
+width:140px;
+height:140px;
+border:10px solid red;
+overflow-y:hidden;
+}
+.image img
+{
+opacity:0.8;
+width:200px;
+height:200px;
+}
